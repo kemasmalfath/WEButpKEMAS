@@ -1,0 +1,131 @@
+.subpage-header {
+    background-color: #084472;
+    color: white;
+    padding: 60px 0;
+    margin-bottom: 40px;
+}
+
+.subpage-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.subpage-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.biro-container {
+    padding-bottom: 50px;
+}
+
+.biro-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-left: 5px solid #084472;
+}
+
+.biro-logo img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #084472;
+    padding: 5px;
+    background-color: #f8f9fa;
+}
+
+.biro-info h2 {
+    color: #084472;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.biro-kepala p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.biro-kepala strong {
+    color: #084472;
+}
+
+.biro-desc {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #084472;
+}
+
+.biro-desc p {
+    margin-bottom: 0;
+    color: #555;
+    line-height: 1.7;
+}
+
+.program-kerja {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px dashed #ddd;
+}
+
+.program-kerja h3 {
+    color: #084472;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.program-kerja ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.program-kerja li {
+    background-color: #084472;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .subpage-header {
+        padding: 40px 0;
+    }
+    
+    .subpage-header h1 {
+        font-size: 2rem;
+    }
+    
+    .subpage-header p {
+        font-size: 1rem;
+    }
+    
+    .biro-section {
+        padding: 20px;
+    }
+    
+    .biro-info h2 {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+    
+    .biro-logo {
+        margin-bottom: 20px;
+    }
+    
+    .program-kerja ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

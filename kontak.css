@@ -1,0 +1,189 @@
+.subpage-header {
+    background-color: #084472;
+    color: white;
+    padding: 60px 0;
+    margin-bottom: 40px;
+}
+
+.subpage-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.subpage-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Container */
+.kontak-container {
+    padding-bottom: 50px;
+}
+
+/* Card kontak */
+.contact-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.contact-card h2 {
+    color: #084472;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.contact-card h2 i {
+    color: #084472;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.contact-card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Form kontak */
+.contact-form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.contact-form h2 {
+    color: #084472;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+/* Tombol kirim */
+.btn-primary {
+    background-color: #084472;
+    border-color: #084472;
+    padding: 8px 25px;
+}
+
+.btn-primary:hover {
+    background-color: #063961;
+    border-color: #063961;
+}
+
+/* Media sosial */
+.social-media {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.social-media h3 {
+    color: #084472;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    color: #084472;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 5px 15px rgba(173, 17, 17, 0.1);
+}
+
+/* Warna khusus untuk masing-masing ikon */
+.social-icon.instagram:hover {
+    background-color: #3c1eb4;
+    color: white;
+}
+
+.social-icon.facebook:hover {
+    background-color: hsl(221, 44%, 41%);
+    color: white;
+}
+
+.social-icon.youtube:hover {
+    background-color: #232ab7;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .social-icons {
+        gap: 15px;
+    }
+    
+    .social-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+}
+/* Map */
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #084472;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer .quote {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .subpage-header {
+        padding: 40px 0;
+    }
+
+    .subpage-header h1 {
+        font-size: 2rem;
+    }
+
+    .subpage-header p {
+        font-size: 1rem;
+    }
+
+    .contact-card,
+    .contact-form {
+        padding: 20px;
+    }
+
+    .social-icons {
+        gap: 15px;
+    }
+
+    .social-icon {
+        font-size: 1.5rem;
+    }
+}
